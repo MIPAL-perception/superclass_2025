@@ -1,0 +1,11 @@
+-r requirements/build.txt
+-r requirements/optional.txt
+-r requirements/runtime.txt
+-r requirements/tests.txt
+
+addict
+rich
+termcolor
+opencv-python==4.8.1.78
+torch==1.11.0
+torchvision==0.12.0
